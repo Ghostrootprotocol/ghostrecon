@@ -21,9 +21,9 @@ Make sure these tools are installed and available in your terminal:
 
 ## Installation
 
-git clone https://github.com/ghostrootprotocol/ghostrecon.git
-cd ghostrecon
-chmod +x ghostrecon.py
+- git clone https://github.com/ghostrootprotocol/ghostrecon.git
+- cd ghostrecon
+- chmod +x ghostrecon.py
 
 ## Usage
 
@@ -36,14 +36,14 @@ example: python3 ghostrecon.py target.com
 All results will be saved in a folder named like this:
 
 recon_example_com_20250712_143522/
-├── nmap.txt
-├── nikto.txt
-├── subdomains.txt
-├── live_subdomains.txt
-├── ffuf_main.json
-├── ffuf_main.log
-├── ffuf_subdomain.json
-├── ffuf_subdomain.log
+- nmap.txt
+- nikto.txt
+- subdomains.txt
+- live_subdomains.txt
+- ffuf_main.json
+- ffuf_main.log
+- ffuf_subdomain.json
+- ffuf_subdomain.log
 
 P.S: This tool is for educational and authorized use only. Only to be use in permitted services.
 
